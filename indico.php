@@ -1,14 +1,18 @@
 <?php
+
 require(__DIR__ . '/vendor/autoload.php');
 use \IndicoIo\IndicoIo as IndicoIo;
 IndicoIo::$config['api_key'] = '404dfbb6e80ebc11c8f57a0404463c10';
 
-$s = array();
+# single example
+IndicoIo::sentiment(
+    "I love writing code!"
+);
 
-#$s = IndicoIo::emotion([
-#    "I did it. I got into Grad School. Not just any program, but a GREAT program. :-)",
-#    "Like seriously my life is bleak, I have been unemployed for almost a year."
-#]);
+# batch example
+IndicoIo::sentiment([
+    "I love writing code!",
+    "Alexander and the Terrible, Horrible, No Good, Very Bad Day"
+]);
 
-var_dump($s);
 ?>
