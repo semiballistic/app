@@ -1,0 +1,87 @@
+[
+    {
+        "name": "eventviva/php-image-resize",
+        "version": "1.5.5",
+        "version_normalized": "1.5.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/eventviva/php-image-resize.git",
+            "reference": "87e7200ad2e24beb9ec9862f6f2c11d93dee8838"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/eventviva/php-image-resize/zipball/87e7200ad2e24beb9ec9862f6f2c11d93dee8838",
+            "reference": "87e7200ad2e24beb9ec9862f6f2c11d93dee8838",
+            "shasum": ""
+        },
+        "require": {
+            "ext-exif": "*",
+            "ext-gd": "*",
+            "php": ">=5.3.0"
+        },
+        "time": "2016-08-17 17:41:24",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Aditya Patadia",
+                "homepage": "http://aditya.patadia.org/"
+            }
+        ],
+        "description": "PHP class to re-size and scale images",
+        "homepage": "https://github.com/eventviva/php-image-resize",
+        "keywords": [
+            "image",
+            "php",
+            "resize",
+            "scale"
+        ]
+    },
+    {
+        "name": "indicoio/indicoio-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/IndicoDataSolutions/IndicoIo-PHP.git",
+            "reference": "363a771b51fd9647e5fa3490f1cf8a93eaaa7e6c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/IndicoDataSolutions/IndicoIo-PHP/zipball/363a771b51fd9647e5fa3490f1cf8a93eaaa7e6c",
+            "reference": "363a771b51fd9647e5fa3490f1cf8a93eaaa7e6c",
+            "shasum": ""
+        },
+        "require": {
+            "eventviva/php-image-resize": "1.5.*",
+            "ext-curl": "*",
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2016-07-23 22:29:05",
+        "type": "project",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "IndicoIo\\": "IndicoIo/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "description": "Rest Api Wrapper for PHP.",
+        "keywords": [
+            "IndicoIo",
+            "Rest Api Wrapper for PHP"
+        ]
+    }
+]

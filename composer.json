@@ -1,0 +1,6 @@
+{
+  "require": {
+    "indicoio/indicoio-php": "*"
+  },
+  "minimum-stability": "dev"
+}
