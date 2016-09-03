@@ -7,10 +7,10 @@ IndicoIo::$config['api_key'] = '1';
 $s = array ();
 
 # batch example
-#$s = IndicoIo::sentiment([
-#    "I love writing code!",
-#    "Alexander and the Terrible, Horrible, No Good, Very Bad Day"
-#]);
+$s = IndicoIo::sentiment([
+    "I love writing code!",
+    "Alexander and the Terrible, Horrible, No Good, Very Bad Day"
+]);
 
 var_dump($s);
 ?>
