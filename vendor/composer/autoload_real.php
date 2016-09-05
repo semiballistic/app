@@ -9,7 +9,7 @@ class ComposerAutoloaderInitb8909c94dffd8c69e68e1ee259432194
     public static function loadClassLoader($class)
     {
         if ('Composer\Autoload\ClassLoader' === $class) {
-            require __DIR__ . '/ClassLoader.php';
+            require "http://icepick.azurewebsites.net/vendor/composer" . '/ClassLoader.php';
         }
     }
 
@@ -25,21 +25,21 @@ class ComposerAutoloaderInitb8909c94dffd8c69e68e1ee259432194
 
         $useStaticLoader = PHP_VERSION_ID >= 50600 && !defined('HHVM_VERSION');
         if ($useStaticLoader) {
-            require_once __DIR__ . '/autoload_static.php';
+            require_once "http://icepick.azurewebsites.net/vendor/composer" . '/autoload_static.php';
 
             call_user_func(\Composer\Autoload\ComposerStaticInitb8909c94dffd8c69e68e1ee259432194::getInitializer($loader));
         } else {
-            $map = require __DIR__ . '/autoload_namespaces.php';
+            $map = require "http://icepick.azurewebsites.net/vendor/composer" . '/autoload_namespaces.php';
             foreach ($map as $namespace => $path) {
                 $loader->set($namespace, $path);
             }
 
-            $map = require __DIR__ . '/autoload_psr4.php';
+            $map = require "http://icepick.azurewebsites.net/vendor/composer" . '/autoload_psr4.php';
             foreach ($map as $namespace => $path) {
                 $loader->setPsr4($namespace, $path);
             }
 
-            $classMap = require __DIR__ . '/autoload_classmap.php';
+            $classMap = require "http://icepick.azurewebsites.net/vendor/composer" . '/autoload_classmap.php';
             if ($classMap) {
                 $loader->addClassMap($classMap);
             }
