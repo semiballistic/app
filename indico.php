@@ -1,6 +1,6 @@
 <?php
 
-require(__DIR__ . '/vendor/autoload.php');
+require("http://icepick.azurewebsites.net" . '/vendor/autoload.php');
 use \IndicoIo\IndicoIo as IndicoIo;
 
 IndicoIo::sentiment(
