@@ -4,5 +4,5 @@ UploadFolder=/var/lib/openshift/57c799347628e188d20001b2/zend/php-5.4/var/apps/h
 eclipse.preferences.version=1
 isLocalProjectEnabled=false
 isRemoteProjectEnabled=true
-isUploadEnabled=true
+isUploadEnabled=false
 localUploadFolder=/
