@@ -2,10 +2,5 @@
   "require": {
     "indicoio/indicoio-php": "*"
   },
-  "minimum-stability": "dev",
-  "name" : "app",
-  "repositories" : [ {
-    "type" : "composer",
-    "url" : "https://packagist.org/"
-  } ]
+  "minimum-stability": "dev"
 }

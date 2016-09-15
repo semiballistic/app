@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>app</name>
+	<name>ballistic</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -17,11 +17,6 @@
 		</buildCommand>
 		<buildCommand>
 			<name>org.zend.php.zendserver.deployment.core.DeploymentBuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-		<buildCommand>
-			<name>com.zend.php.composer.core.ComposerJsonBuilder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
